@@ -1,0 +1,15 @@
+Youtube practice link : = https://www.youtube.com/watch?v=yZgwW6Yuc_E&list=PLGpDamzc7WyQ
+
+// download go for below site
+https://go.dev/
+
+//download windows version 
+
+//go extension download in visual studio code 
+
+//cmd command for create folder 
+cd 
+cd..
+mkdir foldername //for create folder using cmd command 
+type nul > for.go (file name with go extention for create go file )// for create file inside folder using cmd command
+
