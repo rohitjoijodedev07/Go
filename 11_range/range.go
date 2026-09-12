@@ -1,4 +1,4 @@
-package range
+// package range
 package main
 
 //iterating over data structures
@@ -21,7 +21,7 @@ func main() {
 	// 	fmt.Println(num,i)
 	// }
 
-	m := map[string]string{"fname": "john", "lname": "doe"}
+	//m := map[string]string{"fname": "john", "lname": "doe"}
 
 	// for k, v := range m {
 	// 	fmt.Println(k, v)
