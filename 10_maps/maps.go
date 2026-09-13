@@ -1,6 +1,7 @@
 // package maps
 package main
 
+///////
 //import "fmt"
 
 // In Go (Golang), fmt stands for Format.
