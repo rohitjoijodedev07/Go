@@ -16,6 +16,9 @@ type nul > for.go (file name with go extention for create go file )// for create
 go run foldername/for.go
 go run for.go
 
+
+go mod tidy
+
 /////LAST VIDEO TIME STEMP (01:02:00) (YOUTUBE : - https://www.youtube.com/watch?v=yZgwW6Yuc_E)
 
 
