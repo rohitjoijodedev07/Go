@@ -16,7 +16,59 @@ type nul > for.go (file name with go extention for create go file )// for create
 go run foldername/for.go
 go run for.go
 
+
+go mod tidy
+
 /////LAST VIDEO TIME STEMP (01:02:00) (YOUTUBE : - https://www.youtube.com/watch?v=yZgwW6Yuc_E)
+
+/////////REST API PROJECT USED COMMAND
+
+go version
+
+go mod init github.com/rohitjoijodedev07/students-api
+
+Step 1 — Stay in your project folder
+D:\Go\REST_API_IN_GOLANG\students-api>
+
+go env GOPROXY
+
+You already did this and got:
+https://proxy.golang.org,direct
+
+
+Step 2 — Change Go to download directly from GitHub
+go env -w GOPROXY=direct
+Important: copy/paste exactly that command.
+
+Then verify: go env GOPROXY
+
+You should get: direct
+
+Step 3 — Test GitHub
+Now run:
+
+git ls-remote https://github.com/ilyakaznacheev/cleanenv.git
+
+You should see several lines containing hashes and references, for example:
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    HEAD
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    refs/heads/master
+
+If you see those lines, GitHub is reachable.
+
+
+Step 4 — Install cleanenv
+go get github.com/ilyakaznacheev/cleanenv
+
+
+
+
+
+
+
+
+
+
 
 
 
